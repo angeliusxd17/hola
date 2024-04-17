@@ -56,10 +56,7 @@ public class Proyecto1 extends JFrame {
         lblNewLabel_1.setBounds(10, 36, 46, 14);
         contentPane.add(lblNewLabel_1);
         
-        txtMarcas = new JTextField();
-        txtMarcas.setBounds(82, 8, 86, 20);
-        contentPane.add(txtMarcas);
-        txtMarcas.setColumns(10);
+     
         
         txtPrecio = new JTextField();
         txtPrecio.setBounds(82, 33, 86, 20);
@@ -103,16 +100,11 @@ public class Proyecto1 extends JFrame {
         JComboBox comboBox = new JComboBox();
         comboBox.setBounds(191, 7, 86, 22);
         
-        List<Productos> listaProducto = new ArrayList<>();
-        listaProducto.add(Producto.set)
-        
-        for (Productos productos : listaProducto) {
-        	productos.setNombreProducto("lg");
-			productos.setPrecioProducto(1600.00);
-		}
-        listaProducto.add(productos)
-        
-        comboBox.addItem(comboBox);
+        comboBox.addItem("LG");
+        comboBox.addItem("SONY");
+        comboBox.addItem("SAMSUNG");
+        comboBox.addItem("HUAWEI");
+        comboBox.addItem("PANASONIC");
         
         contentPane.add(comboBox);
     }
